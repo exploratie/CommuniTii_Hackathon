@@ -1,5 +1,14 @@
 {
-  "presets": ["babel-preset-expo"],
+  "presets": ["babel-preset-expo", "es2017", "stage-0"],
+  "plugins": [
+    "transform-decorators-legacy",
+    [
+      "module-resolver",
+      {
+        "root": ["./src"]
+      }
+    ]
+  ],
   "env": {
     "development": {
       "plugins": ["transform-react-jsx-source"]

@@ -1,4 +1,4 @@
-# Install Instrcution
+### Install Instruction
 Make sure to install `yarn`, `lerna` and `exp` globally
 
 ```
@@ -11,3 +11,7 @@ To run the mobile app, `cd` into `apps/mobile` and run
 ```
 yarn start
 ```
+### Vscode Extensions
+* Eslint
+* Prettier Code Formatter
+* Editorconfig for Vscode
