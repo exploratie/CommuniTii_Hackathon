@@ -1,5 +1,5 @@
 {
-  "presets": ["babel-preset-expo", "es2017", "stage-0"],
+  "presets": ["babel-preset-expo", "es2017", "stage-0", "react-native-dotenv"],
   "plugins": [
     "transform-decorators-legacy",
     [

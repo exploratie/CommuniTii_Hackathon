@@ -16,8 +16,7 @@
     "redux-devtools-extension": "^2.13.2",
     "redux-firestore": "^0.4.3",
     "redux-form": "^7.3.0",
-    "redux-observable": "^0.18.0",
-    "rxjs": "^6.0.0"
+    "redux-thunk": "^2.2.0"
   },
   "scripts": {
     "add:l": "lerna add --scope=@communitii/mobile",
@@ -30,6 +29,7 @@
     "babel-preset-es2017": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "exp": "^53.1.0",
+    "react-native-dotenv": "^0.1.1",
     "redux-immutable-state-invariant": "^2.1.0",
     "redux-logger": "^3.0.6"
   }
