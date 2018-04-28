@@ -1,7 +1,11 @@
 import React from "react"
 import Expo from "expo"
+import { Provider } from "react-redux"
 
 import Screens from "screens"
+import initStore from "lib/initStore"
+
+const store = initStore()
 
 class App extends React.Component {
   state = {
@@ -18,7 +22,13 @@ class App extends React.Component {
   }
 
   render() {
-    return !this.state.isReady ? <Expo.AppLoading /> : <Screens />
+    return !this.state.isReady ? (
+      <Expo.AppLoading />
+    ) : (
+      <Provider store={store}>
+        <Screens />
+      </Provider>
+    )
   }
 }
 

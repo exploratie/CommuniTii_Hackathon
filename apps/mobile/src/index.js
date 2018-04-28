@@ -4,7 +4,6 @@ import App from "./containers/App"
 
 Expo.registerRootComponent(App)
 
-// TODO: add redux
 // TODO: integrate redux and react navigation
 // TODO: add redux-observable
 // TODO: add redux-firebase
