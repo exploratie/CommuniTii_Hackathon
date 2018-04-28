@@ -1,32 +1,39 @@
-import React from "react";
-import { View, StyleSheet, Image, Text } from "react-native";
+import React from "react"
+import { View, StyleSheet, Image, Text } from "react-native"
+import { LinearGradient } from "expo"
 
 const styles = StyleSheet.create({
   image: {
     width: 125,
     height: 125,
-    borderRadius: 40
+    borderRadius: 40,
+    justifyContent: "center",
+    alignItems: "center"
   },
   info: {
     marginTop: 10,
-    fontSize: 20,
+    fontSize: 25,
+    color: "white"
   },
   badges: {
-    marginTop: 15,
+    marginTop: 70,
     fontSize: 26,
     textDecorationLine: "underline",
+    color: "white"
+  },
+  list: {
+    flexDirection: "row",
+    flexWrap: "wrap"
   }
-});
+})
 
 const ProfileScreen = () => (
-  <View style={{ flex: 1 }}>
+  <LinearGradient
+    colors={["#C94F4F", "#6C4CA7", "#444892"]}
+    style={{ flex: 1, padding: 15, alignItems: "center", borderRadius: 5 }}
+  >
     <View
-      style={{
-        flex: 1.5,
-        backgroundColor: "#C94F4F",
-        justifyContent: "center",
-        alignItems: "center"
-      }}
+      style={{ justifyContent: "center", alignItems: "center", marginTop: 75 }}
     >
       <Image
         style={styles.image}
@@ -36,26 +43,16 @@ const ProfileScreen = () => (
         }}
       />
       <Text style={styles.info}>Aubrey Drake Graham</Text>
-      <Text>Level 48</Text>
-    </View>
-
-    <View
-      style={{
-        flex: 2,
-        backgroundColor: "#444892",
-        alignItems: "center"
-      }}
-    >
+      <Text style={{ color: "white", fontSize: 20 }}>Level 48</Text>
       <Text style={styles.badges}>Badges</Text>
-      <Image
-        style={styles.image}
-        source={{
-          uri:
-            "./assets/icons8-oak-tree-64.png"
-        }}
-      />
+      <View style={{ flex: 1, flexDirection: "row" }}>
+        <Image source={require("../../../assets/badges/tree.png")} />
+        <Image source={require("../../../assets/badges/charity.png")} />
+        <Image source={require("../../../assets/badges/helping-hand.png")} />
+        <Image source={require("../../../assets/badges/community.png")} />
+      </View>
     </View>
-  </View>
-);
+  </LinearGradient>
+)
 
-export default ProfileScreen;
+export default ProfileScreen
