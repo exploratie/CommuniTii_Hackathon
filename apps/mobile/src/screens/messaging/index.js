@@ -1,10 +1,6 @@
 import React from "react"
 import { View, Text } from "react-native"
+import { StackNavigator } from "react-navigation"
+import MessageListScreen from "./messageList"
 
-const MessagingScreen = () => (
-  <View>
-    <Text>This is Messaging</Text>
-  </View>
-)
-
-export default MessagingScreen
+export default StackNavigator({ MessageList: { screen: MessageListScreen } })
