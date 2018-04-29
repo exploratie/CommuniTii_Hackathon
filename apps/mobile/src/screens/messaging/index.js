@@ -15,6 +15,7 @@ import {
   Button,
   Input
 } from "native-base"
+import chat from "./chat"
 
 export default class ListAvatarExample extends Component {
   render() {
@@ -51,7 +52,7 @@ export default class ListAvatarExample extends Component {
             <ListItem avatar>
               <Left>
                 <Thumbnail
-                  source={require("../../../assets/avatars/kanye.jpg")}
+                  source={require("../../../assets/avatars/khaled.jpg")}
                 />
               </Left>
               <Body>
@@ -65,7 +66,7 @@ export default class ListAvatarExample extends Component {
             <ListItem avatar>
               <Left>
                 <Thumbnail
-                  source={require("../../../assets/avatars/kanye.jpg")}
+                  source={require("../../../assets/avatars/big_sean.jpg")}
                 />
               </Left>
               <Body>
@@ -79,7 +80,7 @@ export default class ListAvatarExample extends Component {
             <ListItem avatar>
               <Left>
                 <Thumbnail
-                  source={require("../../../assets/avatars/kanye.jpg")}
+                  source={require("../../../assets/avatars/cardi.jpg")}
                 />
               </Left>
               <Body>
@@ -93,7 +94,7 @@ export default class ListAvatarExample extends Component {
             <ListItem avatar>
               <Left>
                 <Thumbnail
-                  source={require("../../../assets/avatars/kanye.jpg")}
+                  source={require("../../../assets/avatars/eminem.jpg")}
                 />
               </Left>
               <Body>
@@ -107,7 +108,7 @@ export default class ListAvatarExample extends Component {
             <ListItem avatar>
               <Left>
                 <Thumbnail
-                  source={require("../../../assets/avatars/kanye.jpg")}
+                  source={require("../../../assets/avatars/lebron.jpg")}
                 />
               </Left>
               <Body>
@@ -121,7 +122,7 @@ export default class ListAvatarExample extends Component {
             <ListItem avatar>
               <Left>
                 <Thumbnail
-                  source={require("../../../assets/avatars/kanye.jpg")}
+                  source={require("../../../assets/avatars/nicki.jpg")}
                 />
               </Left>
               <Body>
@@ -135,7 +136,7 @@ export default class ListAvatarExample extends Component {
             <ListItem avatar>
               <Left>
                 <Thumbnail
-                  source={require("../../../assets/avatars/kanye.jpg")}
+                  source={require("../../../assets/avatars/pharell.jpg")}
                 />
               </Left>
               <Body>
@@ -149,7 +150,7 @@ export default class ListAvatarExample extends Component {
             <ListItem avatar>
               <Left>
                 <Thumbnail
-                  source={require("../../../assets/avatars/kanye.jpg")}
+                  source={require("../../../assets/avatars/rihanna.jpg")}
                 />
               </Left>
               <Body>
