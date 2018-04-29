@@ -1,5 +1,6 @@
 import React from "react"
-import { View, StyleSheet, Image, Text } from "react-native"
+import { StyleSheet, Image } from "react-native"
+import { Text, View } from "native-base"
 import { LinearGradient } from "expo"
 
 const styles = StyleSheet.create({
@@ -13,17 +14,47 @@ const styles = StyleSheet.create({
   info: {
     marginTop: 10,
     fontSize: 25,
-    color: "white"
+    color: "white",
+    fontWeight: "bold"
   },
   badges: {
-    marginTop: 70,
-    fontSize: 26,
-    textDecorationLine: "underline",
-    color: "white"
+    height: 50,
+    width: 50,
+    marginRight: 25
   },
-  list: {
-    flexDirection: "row",
-    flexWrap: "wrap"
+  badgesexception: {
+    height: 50,
+    width: 50
+  },
+  bubbletext: {
+    color: "white",
+    paddingLeft: 30,
+    paddingTop: 10,
+    fontSize: 20,
+    fontWeight: "bold"
+  },
+  loading_bar_large: {
+    marginTop: 20,
+    height: 30,
+    width: 300,
+    borderRadius: 90,
+    borderWidth: 0.75,
+    borderColor: "#191919"
+  },
+  loading_bar_small: {
+    height: 30,
+    width: 225,
+    borderRadius: 90,
+    borderWidth: 0.75,
+    backgroundColor: "#57B151",
+    justifyContent: "flex-end",
+    alignItems: "flex-end"
+  },
+  questloginfo: {
+    paddingLeft: 20,
+    color: "#B24AB4",
+    paddingTop: 15,
+    fontSize: 18
   }
 })
 
@@ -44,12 +75,83 @@ const ProfileScreen = () => (
       />
       <Text style={styles.info}>Aubrey Drake Graham</Text>
       <Text style={{ color: "white", fontSize: 20 }}>Level 48</Text>
-      <Text style={styles.badges}>Badges</Text>
-      <View style={{ flex: 1, flexDirection: "row" }}>
-        <Image source={require("../../../assets/badges/tree.png")} />
-        <Image source={require("../../../assets/badges/charity.png")} />
-        <Image source={require("../../../assets/badges/helping-hand.png")} />
-        <Image source={require("../../../assets/badges/community.png")} />
+      <View style={styles.loading_bar_large}>
+        <View style={styles.loading_bar_small}>
+          <Text
+            style={{
+              color: "#D3EAD2",
+              marginBottom: 5,
+              marginRight: 10,
+              fontWeight: "bold"
+            }}
+          >
+            75%
+          </Text>
+        </View>
+      </View>
+      <View
+        style={{
+          backgroundColor: "#191919",
+          height: 100,
+          width: 330,
+          borderRadius: 30,
+          justifyContent: "flex-start",
+          alignItems: "flex-start",
+          marginTop: 20
+        }}
+      >
+        <Text style={styles.bubbletext}>Badges</Text>
+        <View
+          style={{
+            marginTop: 5,
+            marginBottom: 10,
+            marginLeft: 25,
+            flex: 1,
+            flexDirection: "row"
+          }}
+        >
+          <Image
+            style={styles.badges}
+            source={require("../../../assets/badges/tree.png")}
+          />
+          <Image
+            style={styles.badges}
+            source={require("../../../assets/badges/charity.png")}
+          />
+          <Image
+            style={styles.badges}
+            source={require("../../../assets/badges/helping-hand.png")}
+          />
+          <Image
+            style={styles.badgesexception}
+            source={require("../../../assets/badges/community.png")}
+          />
+        </View>
+      </View>
+      <View
+        style={{
+          backgroundColor: "#191919",
+          height: 240,
+          width: 330,
+          borderRadius: 30,
+          justifyContent: "flex-start",
+          alignItems: "flex-start",
+          marginTop: 15
+        }}
+      >
+        <Text style={styles.bubbletext}>Quest Log</Text>
+        <Text style={styles.questloginfo}>
+          Planted a Tree{"\n"}
+          <Text style={{ fontSize: 14, color: "white" }}>Date: Sept. 5</Text>
+        </Text>
+        <Text style={styles.questloginfo}>
+          Adopted a Cat{"\n"}
+          <Text style={{ fontSize: 14, color: "white" }}>Date: April. 18</Text>
+        </Text>
+        <Text style={styles.questloginfo}>
+          Donated $1 million for God's Plan music video{"\n"}
+          <Text style={{ fontSize: 14, color: "white" }}>Date: Jan. 5</Text>
+        </Text>
       </View>
     </View>
   </LinearGradient>
