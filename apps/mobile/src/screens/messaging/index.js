@@ -15,7 +15,7 @@ import {
   Button,
   Input
 } from "native-base"
-import chat from "./chat"
+// import chat from "./chat"
 
 export default class ListAvatarExample extends Component {
   render() {
@@ -118,7 +118,7 @@ export default class ListAvatarExample extends Component {
               <Body>
                 <Text>Lebron James</Text>
                 <Text note>
-                  I've achieved everything there is to be achieved.{" "}
+                  I have achieved everything there is to be achieved.{" "}
                 </Text>
               </Body>
               <Right>
