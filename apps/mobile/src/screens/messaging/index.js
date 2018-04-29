@@ -57,7 +57,9 @@ export default class ListAvatarExample extends Component {
               </Left>
               <Body>
                 <Text>DJ Khaled</Text>
-                <Text note>They dont want you to win! </Text>
+                <Text note>
+                  Dont play yourself. They dont want you to win!{" "}
+                </Text>
               </Body>
               <Right>
                 <Text note>7:22 pm</Text>
@@ -70,7 +72,7 @@ export default class ListAvatarExample extends Component {
                 />
               </Left>
               <Body>
-                <Text>Kanye West</Text>
+                <Text>Big Sean</Text>
                 <Text note>Wanna go to Chick-Fil-A with me tonight?</Text>
               </Body>
               <Right>
@@ -84,8 +86,8 @@ export default class ListAvatarExample extends Component {
                 />
               </Left>
               <Body>
-                <Text>Kanye West</Text>
-                <Text note> He's not coming over tonight. </Text>
+                <Text>Cardi B</Text>
+                <Text note> I miss you.. Please contact me ASAP! </Text>
               </Body>
               <Right>
                 <Text note>2:19 pm</Text>
@@ -98,8 +100,10 @@ export default class ListAvatarExample extends Component {
                 />
               </Left>
               <Body>
-                <Text>Kanye West</Text>
-                <Text note>okay.</Text>
+                <Text>Eminem</Text>
+                <Text note>
+                  I am not avaliable tonight. Lets meet tomorrow.{" "}
+                </Text>
               </Body>
               <Right>
                 <Text note>06/21/2018</Text>
@@ -112,8 +116,10 @@ export default class ListAvatarExample extends Component {
                 />
               </Left>
               <Body>
-                <Text>Kanye West</Text>
-                <Text note>I would if i could.</Text>
+                <Text>Lebron James</Text>
+                <Text note>
+                  I've achieved everything there is to be achieved.{" "}
+                </Text>
               </Body>
               <Right>
                 <Text note>06/21/2018</Text>
@@ -126,8 +132,8 @@ export default class ListAvatarExample extends Component {
                 />
               </Left>
               <Body>
-                <Text>Kanye West</Text>
-                <Text note>...</Text>
+                <Text>Nicki Minaj</Text>
+                <Text note>Get ready! Im dropping a new project tonight.</Text>
               </Body>
               <Right>
                 <Text note>06/20/2018</Text>
@@ -140,7 +146,7 @@ export default class ListAvatarExample extends Component {
                 />
               </Left>
               <Body>
-                <Text>Kanye West</Text>
+                <Text>Pharrel Williams</Text>
                 <Text note>I need help!</Text>
               </Body>
               <Right>
@@ -154,7 +160,7 @@ export default class ListAvatarExample extends Component {
                 />
               </Left>
               <Body>
-                <Text>Kanye West</Text>
+                <Text>Rihanna</Text>
                 <Text note>Sounds good!</Text>
               </Body>
               <Right>
