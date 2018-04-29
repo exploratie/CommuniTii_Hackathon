@@ -45,7 +45,7 @@ export default class ListAvatarExample extends Component {
                 </Text>
               </Body>
               <Right>
-                <Text note>3:43 pm</Text>
+                <Text note>2:29 pm</Text>
               </Right>
             </ListItem>
             <ListItem avatar>
@@ -56,12 +56,10 @@ export default class ListAvatarExample extends Component {
               </Left>
               <Body>
                 <Text>Kanye West</Text>
-                <Text note>
-                  Doing what you like will always keep you happy . .
-                </Text>
+                <Text note>What time is your Doctor's appointment?</Text>
               </Body>
               <Right>
-                <Text note>3:43 pm</Text>
+                <Text note>3:22 pm</Text>
               </Right>
             </ListItem>
             <ListItem avatar>
@@ -72,12 +70,10 @@ export default class ListAvatarExample extends Component {
               </Left>
               <Body>
                 <Text>Kanye West</Text>
-                <Text note>
-                  Doing what you like will always keep you happy . .
-                </Text>
+                <Text note>Wanna go to Chick-Fil-A with me tonight?</Text>
               </Body>
               <Right>
-                <Text note>3:43 pm</Text>
+                <Text note>1:23 pm</Text>
               </Right>
             </ListItem>
             <ListItem avatar>
@@ -88,12 +84,10 @@ export default class ListAvatarExample extends Component {
               </Left>
               <Body>
                 <Text>Kanye West</Text>
-                <Text note>
-                  Doing what you like will always keep you happy . .
-                </Text>
+                <Text note> He's not coming over tonight. </Text>
               </Body>
               <Right>
-                <Text note>3:43 pm</Text>
+                <Text note>9:19 pm</Text>
               </Right>
             </ListItem>
             <ListItem avatar>
@@ -104,12 +98,10 @@ export default class ListAvatarExample extends Component {
               </Left>
               <Body>
                 <Text>Kanye West</Text>
-                <Text note>
-                  Doing what you like will always keep you happy . .
-                </Text>
+                <Text note>okay.</Text>
               </Body>
               <Right>
-                <Text note>3:43 pm</Text>
+                <Text note>8:12 pm</Text>
               </Right>
             </ListItem>
             <ListItem avatar>
@@ -120,12 +112,10 @@ export default class ListAvatarExample extends Component {
               </Left>
               <Body>
                 <Text>Kanye West</Text>
-                <Text note>
-                  Doing what you like will always keep you happy . .
-                </Text>
+                <Text note>I would if i could.</Text>
               </Body>
               <Right>
-                <Text note>3:43 pm</Text>
+                <Text note>1:02 pm</Text>
               </Right>
             </ListItem>
             <ListItem avatar>
@@ -136,12 +126,10 @@ export default class ListAvatarExample extends Component {
               </Left>
               <Body>
                 <Text>Kanye West</Text>
-                <Text note>
-                  Doing what you like will always keep you happy . .
-                </Text>
+                <Text note>...</Text>
               </Body>
               <Right>
-                <Text note>3:43 pm</Text>
+                <Text note>7:43 pm</Text>
               </Right>
             </ListItem>
             <ListItem avatar>
@@ -152,12 +140,10 @@ export default class ListAvatarExample extends Component {
               </Left>
               <Body>
                 <Text>Kanye West</Text>
-                <Text note>
-                  Doing what you like will always keep you happy . .
-                </Text>
+                <Text note>I need help!</Text>
               </Body>
               <Right>
-                <Text note>3:43 pm</Text>
+                <Text note>5:33 pm</Text>
               </Right>
             </ListItem>
             <ListItem avatar>
@@ -168,12 +154,10 @@ export default class ListAvatarExample extends Component {
               </Left>
               <Body>
                 <Text>Kanye West</Text>
-                <Text note>
-                  Doing what you like will always keep you happy . .
-                </Text>
+                <Text note>Sounds good!</Text>
               </Body>
               <Right>
-                <Text note>3:43 pm</Text>
+                <Text note>7:33 pm</Text>
               </Right>
             </ListItem>
           </List>
