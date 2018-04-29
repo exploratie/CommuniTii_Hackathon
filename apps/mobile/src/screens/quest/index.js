@@ -1,14 +1,15 @@
-import React from "react"
-import { View, Text } from "react-native"
-
 import { StackNavigator } from "react-navigation"
 
-const QuestSearchScreen = () => (
-  <View>
-    <Text>This is Quest</Text>
-  </View>
-)
+import HeaderBar from "components/HeaderBar"
+import QuestSearchScreen from "./QuestSearch"
 
-export default StackNavigator({
-  QuestSearch: { screen: QuestSearchScreen }
-})
+export default StackNavigator(
+  {
+    QuestSearch: { screen: QuestSearchScreen }
+  },
+  {
+    navigationOptions: ({ navigation }) => ({
+      header: HeaderBar
+    })
+  }
+)

@@ -7,9 +7,9 @@
     "expo": "^27.0.1",
     "firebase": "^4.13.1",
     "native-base": "^2.4.3",
+    "prop-types": "^15.6.1",
     "react": "16.3.1",
-    "react-native":
-      "https://github.com/expo/react-native/archive/sdk-27.0.0.tar.gz",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-27.0.0.tar.gz",
     "react-navigation": "^1.5.11",
     "react-redux": "^5.0.7",
     "react-redux-firebase": "^2.0.6",
@@ -23,8 +23,7 @@
     "add:l": "lerna add --scope=@communitii/mobile",
     "start": "exp start",
     "start:ios": "exp ios",
-    "start:debug":
-      "open \"rndebugger://set-debugger-loc?host=localhost&port=19001\"",
+    "start:debug": "open \"rndebugger://set-debugger-loc?host=localhost&port=19001\"",
     "dev": "yarn start:debug && yarn start:ios"
   },
   "devDependencies": {

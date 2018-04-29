@@ -3,6 +3,7 @@ import { TabNavigator } from "react-navigation"
 import MessagingScreen from "./messaging"
 import ProfileScreen from "./profile"
 import QuestScreen from "./quest"
+import BottomBar from "components/BottomBar"
 
 export default TabNavigator(
   {
@@ -10,5 +11,9 @@ export default TabNavigator(
     Messaging: { screen: MessagingScreen },
     Profile: { screen: ProfileScreen }
   },
-  { initialRouteName: "Quest" }
+  {
+    initialRouteName: "Quest",
+    tabBarPosition: "bottom",
+    tabBarComponent: BottomBar
+  }
 )
