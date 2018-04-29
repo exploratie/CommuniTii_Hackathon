@@ -34,7 +34,9 @@ export default class ListAvatarExample extends Component {
           <List>
             <ListItem avatar>
               <Left>
-                <Thumbnail source={require("../../../assets/kanye.jpg")} />
+                <Thumbnail
+                  source={require("../../../assets/avatars/kanye.jpg")}
+                />
               </Left>
               <Body>
                 <Text>Kanye West</Text>
@@ -48,7 +50,9 @@ export default class ListAvatarExample extends Component {
             </ListItem>
             <ListItem avatar>
               <Left>
-                <Thumbnail source={require("../../../assets/kanye.jpg")} />
+                <Thumbnail
+                  source={require("../../../assets/avatars/kanye.jpg")}
+                />
               </Left>
               <Body>
                 <Text>Kanye West</Text>
@@ -62,7 +66,9 @@ export default class ListAvatarExample extends Component {
             </ListItem>
             <ListItem avatar>
               <Left>
-                <Thumbnail source={require("../../../assets/kanye.jpg")} />
+                <Thumbnail
+                  source={require("../../../assets/avatars/kanye.jpg")}
+                />
               </Left>
               <Body>
                 <Text>Kanye West</Text>
@@ -76,7 +82,9 @@ export default class ListAvatarExample extends Component {
             </ListItem>
             <ListItem avatar>
               <Left>
-                <Thumbnail source={require("../../../assets/kanye.jpg")} />
+                <Thumbnail
+                  source={require("../../../assets/avatars/kanye.jpg")}
+                />
               </Left>
               <Body>
                 <Text>Kanye West</Text>
@@ -90,7 +98,9 @@ export default class ListAvatarExample extends Component {
             </ListItem>
             <ListItem avatar>
               <Left>
-                <Thumbnail source={require("../../../assets/kanye.jpg")} />
+                <Thumbnail
+                  source={require("../../../assets/avatars/kanye.jpg")}
+                />
               </Left>
               <Body>
                 <Text>Kanye West</Text>
@@ -104,7 +114,9 @@ export default class ListAvatarExample extends Component {
             </ListItem>
             <ListItem avatar>
               <Left>
-                <Thumbnail source={require("../../../assets/kanye.jpg")} />
+                <Thumbnail
+                  source={require("../../../assets/avatars/kanye.jpg")}
+                />
               </Left>
               <Body>
                 <Text>Kanye West</Text>
@@ -118,7 +130,9 @@ export default class ListAvatarExample extends Component {
             </ListItem>
             <ListItem avatar>
               <Left>
-                <Thumbnail source={require("../../../assets/kanye.jpg")} />
+                <Thumbnail
+                  source={require("../../../assets/avatars/kanye.jpg")}
+                />
               </Left>
               <Body>
                 <Text>Kanye West</Text>
@@ -132,7 +146,9 @@ export default class ListAvatarExample extends Component {
             </ListItem>
             <ListItem avatar>
               <Left>
-                <Thumbnail source={require("../../../assets/kanye.jpg")} />
+                <Thumbnail
+                  source={require("../../../assets/avatars/kanye.jpg")}
+                />
               </Left>
               <Body>
                 <Text>Kanye West</Text>
@@ -146,7 +162,9 @@ export default class ListAvatarExample extends Component {
             </ListItem>
             <ListItem avatar>
               <Left>
-                <Thumbnail source={require("../../../assets/kanye.jpg")} />
+                <Thumbnail
+                  source={require("../../../assets/avatars/kanye.jpg")}
+                />
               </Left>
               <Body>
                 <Text>Kanye West</Text>
