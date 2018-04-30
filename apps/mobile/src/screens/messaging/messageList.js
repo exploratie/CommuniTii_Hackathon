@@ -8,24 +8,25 @@ import {
   View,
   List
 } from "native-base"
-import { StyleSheet } from "react-native"
+import { StyleSheet, TextInput } from "react-native"
 
 export default class Message extends Component {
   messages = [
     {
-      text: "this is crazy",
-      thumb: "./img.jpg"
+      text:
+        "Hey, Just got email about Cuny Hackathon being held on April 27th at Baruch.",
+      thumb: "../../../assets/chatheads/kenneth.jpg"
     },
     {
-      text: "We got loads to do",
-      thumb: "./img1.jpg"
+      text: "Nice! Lets meet up this weekend and talk about it.",
+      thumb: "../../../assets/chatheads/abdal.jpg"
     }
   ]
 
   pushMessage = () =>
     this.messages.push({
-      text: "THs shit works",
-      thumb: "./img1.jpg"
+      text: "Sounds Great. I'll see you then.",
+      thumb: "../../../assets/chatheads/kenneth.jpg"
     })
 
   renderRow = data => (
@@ -52,6 +53,11 @@ export default class Message extends Component {
             <List dataArray={this.messages} renderRow={this.renderRow} />
           </View>
         </Content>
+        <TextInput
+          style={{ height: 40, borderColor: "gray", borderWidth: 1 }}
+          onChange={text => this.setState({ text })}
+          value={this.state.text}
+        />
       </Container>
     )
   }
