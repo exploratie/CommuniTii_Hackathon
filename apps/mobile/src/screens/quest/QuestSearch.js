@@ -5,7 +5,8 @@ import { StyleSheet } from "react-native"
 
 class QuestSearchScreen extends React.Component {
   static navigationOptions = {
-    title: "Quest"
+    title: "Quest",
+    header: null
   }
 
   render() {
@@ -54,7 +55,8 @@ const {
     top: 0,
     left: 5,
     right: 5,
-    flexDirection: "row"
+    flexDirection: "row",
+    marginTop: 40
   },
   input: {
     height: 36,

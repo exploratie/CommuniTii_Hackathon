@@ -27,7 +27,7 @@ export default class ListAvatarExample extends Component {
             <Icon name="ios-people" />
           </Item>
           <Button transparent>
-            <Text>Search</Text>
+            <Text>Add</Text>
           </Button>
         </Header>{" "}
         <Content>
